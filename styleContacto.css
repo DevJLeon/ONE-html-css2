@@ -1,0 +1,65 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.regular{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+form input .contacto{
+    display: inline-block;
+}
+
+.checkbox{
+    margin: 15px 0;
+}
+
+.enviar{
+    font-size: 18px;
+    font-weight: bold;
+    width: 40%;
+    color: #FFFFFF;
+    background-color: orange;
+    padding: 10px 0;
+    border: none;
+    border-radius: 9px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    width: 41%;
+    border: 10px;
+    font-size: 20px;
+    background-color: darkorange;
+
+}
+
+table{
+    margin: 40px;
+}
+
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    padding: 8px 15px;
+    border: 1px solid #000000;
+}
